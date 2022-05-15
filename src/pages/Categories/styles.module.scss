@@ -1,0 +1,85 @@
+
+
+.Categories {
+    width: 100%;
+    height: fit-content;
+    margin: 20px 20px;
+    padding: 10px;
+    gap: 20px;
+
+}
+
+
+
+h2 {
+    text-align: center;
+    padding: 10px 20px;
+    margin: 30px 20px;
+}
+
+.genreBtn {
+    
+    flex-wrap: wrap;
+    display: inline;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+   // margin: -25px 0 0 -25px;
+    padding-top: 10px;
+    margin: 20px 10px 5px 10px;
+    justify-content: center;
+}
+
+
+.genreBtn li {
+
+    display: inline-block;
+    justify-content: center;
+    list-style-position: outside;
+
+    padding: 20px 20px;
+    text-decoration: none;
+    list-style-type: none;
+    //margin: 10px 20px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+
+    
+}
+   
+
+button.category_btn {
+
+    display: inline-block;
+    //flex-wrap: wrap;
+    justify-content: center;
+    width: 100px;
+    height: 30px;
+    border: none;
+    background: rgb(229, 48, 48);
+    color: rgb(250, 245, 244);
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 0 10px;
+    
+    
+}
+
+button.category_btn:active{
+    color: white;
+    background: rgb(214, 57, 49);
+}
+
+button.category_btn.active{
+    color: white;
+    background: rgb(222, 45, 45);
+}
+
+.cards {
+    padding: 20px 20px 50px 50px;
+    margin: 150px 50px 60px 40px;
+}
+

@@ -1,0 +1,47 @@
+.header {
+    padding: 10px;
+    gap: 10px;
+    justify-content: center;
+    text-align: center;
+    justify-items: center;
+    max-height: fit-content;
+
+
+    label {
+    font-style: italic;
+    font-size: large;
+        
+    }
+   
+}
+
+.searchBar {
+    display: flex;
+    justify-content: center;
+    width: 500px;
+    height: auto;
+    border-radius: 20px;
+
+    outline: none;
+    text-decoration: none;
+    padding: 10px 10px;
+    
+    cursor:text;
+    background-color: white;
+    color: black;
+
+    transform: none;
+    transition: all 0s ease 0;   
+} 
+
+
+.header {
+    background-color: rgb(241, 236, 235);
+}
+
+h1 {
+    font-size: xx-large;
+    font-weight: bold;
+    margin: 20px 20px ;
+
+}

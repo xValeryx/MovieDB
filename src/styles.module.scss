@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&family=Nunito:ital,wght@0,200;1,200&family=Pacifico&family=Source+Sans+Pro:ital,wght@0,300;0,400;1,200;1,600&display=swap');
+
+body {
+  margin: 0 auto;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  text-decoration-color: none;
+  color:black
+}
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color:rgb(225, 43, 43)
+}
+
+
+
+.AppNavbar {
+    background-color: rgb(19, 16, 16);
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    text-decoration: none;
+    gap: 5px;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 0 5px;
+  }
+  
+  .AppNavbar ul li {
+    
+    cursor: pointer;
+    display: inline-block;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .AppNavbar a {
+    text-decoration: none;
+    color: white;
+  }
